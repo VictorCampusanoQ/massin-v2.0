@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link rel="icon" type="image/png" href="assets/images/icon.png">
+    <title>MASSIN - Soluciones Anti-abrasivas</title>
+
+  </head>
+  <body data-spy="scroll" data-target="#navbar" data-offset="57">
+    <!-- Header -->
+    
+    <nav id="header" class="navbar navbar-expand-lg navbar-light sticky-top" style="background-color: #ecf5fbfa;">
+        <div class="container" id="barra">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo-masin.png" alt="Massin logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ml-auto" >
+              
+              <li class="nav-item" >
+                <a class="nav-link h6 pb-4 pt-4" href="ingenieria.html"><strong>Ingeniería</strong></a>
+              </li>
+              <li class="nav-item"> 
+                <a class="nav-link h6 pb-4 pt-4" href="soluciones.html"><strong>Soluciones</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link h6 pb-4 pt-4" href="productos.html"><strong>Productos</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link h6 pb-4 pt-4" href="hardox.html"><strong>Hardox Wearparts</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link h6 pb-4 pt-4" href="repuestos.html"><strong>Repuestos</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link h6 pb-4 pt-4" href="empresa.html"><strong>Empresa</strong></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link h6 pb-4 pt-4 btn btn-outline-info" href="contacto.html" ><strong>Contacto</strong></a>
+              </li>
+              
+            </ul>
+          </div>
+          
+        </div>
+      </nav>
+    
+    <!-- /Header -->
+    <!-- map -->
+    <section class="container-flex pt-4 pb-4" id="mapa">
+      <div class="container">
+        <div class="card mb-3" >
+          <div class="row no-gutters rounded" style="background-color: #ecf5fbfa;">
+            <div class="col-md-4 col-lg-7 pt-4 pl-4">
+              <iframe class="border" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3481.2495840995743!2d-71.26794427903275!3d-29.958746687094408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9691cbe5f266d247%3A0xb59f6d708f74894e!2sMASSIN+SPA!5e0!3m2!1ses-419!2scl!4v1560824272290!5m2!1ses-419!2scl" width="600" height="450" frameborder="2" style="border:0" allowfullscreen></iframe>
+              
+            </div>
+            <div class="col-md-8 col-lg-5">
+              <div class="card-body border bg-secondary text-light rounded">
+                <h5 class="card-title">Formulario de Contacto</h5>
+                <form action="enviar.php" method="post" class="form_contact">
+                  <div class="form-group">
+                    <label for="formGroupExampleInput">Nombre</label>
+                    <input type="text" class="form-control" placeholder="Nombre" id="names" name="nombre" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Télefono / Celular</label>
+                    <input type="text" class="form-control" id="telefono" placeholder="Télefono" id="phone" name="telefono">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Correo Electronico" id="email" name="correo" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Mensaje</label>
+                    <textarea class="form-control" rows="3" id="mensaje" name="mensaje" required></textarea>
+                  </div>
+                  <div class="g-recaptcha" data-sitekey="6Lc8DKsUAAAAAIdDnkfVRlQiB49DGLAybWtrtxY8"></div>
+                  <button class="btn btn-primary btn-lg btn-block" type="submit" value="Enviar Mensaje" id="btnSend">Enviar</button>
+                </form>
+                 
+                <p class="card-text"><strong class="text-dark"></strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <!-- /map -->
+    <!-- Footer -->
+    <footer id="pie" class=" footer" style="background-color: #ecf5fbfa;">
+      <div class="container-fluid">
+
+        <div class="row ">
+          <div class="col-12 col-lg-3 pt-4 pl-4 ">
+            <div class="social">
+                <table class="" style="height: 100px;">
+                  <tbody>
+                    <tr>
+                      <td class="align-top">
+                        <a href="contacto.html" class="social-link mapa"></a> 
+                      </td>
+                      <td class="align-middle">
+                        <strong><p class="pl-2 pt-1">MASSIN SPA.</p></strong>
+                        <p class="pl-2" style="font-family: monospace;"><strong>Casa Matriz: </strong>Ruta D-43 271 G12 Puerto Seco, Coquimbo.</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="align-middle"><a href="contacto.html" class="social-link correo"></a></td>
+                      <td class="align-top pl-2">contacto@massin.cl</td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+            
+          </div>
+
+          <div class="col-12 col-lg-6 text-center h5 pt-4">
+            <strong>
+              <p style="font-family: monospace;">"Enfocados en la mejora constante, 
+            el servicio al cliente y la solución de servicios integrales."</p>
+            </strong>
+            <div class="social pt-3 pb-2">
+              <a href="#" class="social-link twitter"></a>
+              <a href="https://www.facebook.com/Massin-SPA-2224626414301396/?modal=admin_todo_tour" class="social-link facebook"></a>
+              <a href="https://www.instagram.com/massin_spa/?hl=es-la" class="social-link instagram"></a>
+              
+            </div>
+          </div>
+          <div class="col-12 col-lg-3 text-center pt-3">
+            <div class="row">
+              <div class="col-12  text-center text-dark ">
+                <img src="assets/images/massin300.png" alt="Massin logo">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12  text-center pt-3 pb-2">
+                <img src="assets/images/HardoxLogoSF.png" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-12 bg-dark text-center text-light">
+            <p><small>Designed by: V. Campusano & F. Castillo | IT-Sevicios | itservicios.info@gmail.com</small></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <!-- FontAwesome-->
+    <script src="https://kit.fontawesome.com/e975345b52.js"></script>
+  </body>
+</html>
