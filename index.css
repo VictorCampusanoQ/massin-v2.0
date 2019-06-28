@@ -1,20 +1,4 @@
-.text-platzi {
-  color: #0b3653 !important;
-}
 
-.text-platzi:hover {
-  
-  color: #007bff;
-}
-
-.btn-platzi {
-  background-color: #0b3653;
-  color: white;
-}
-
-.btn-platzi:hover {
-  background-color: #007bff;
-}
 #barra {
   color: #0b3653;
   font-family: sans-serif;
